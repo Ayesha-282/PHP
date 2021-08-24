@@ -6,7 +6,7 @@ include_once('opendb.php');
 if(isset($_POST['btnlogin'])){
 	$email=$_POST['email'];
 	$password=$_POST['password'];
-	 $password =md5($password);
+	 $password =($password);
 	//$password=password_hash($_POST['password']);
 	$sql="select * from signup where email=:email and password=:password";
 

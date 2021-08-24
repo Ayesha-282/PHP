@@ -12,7 +12,7 @@ if(!isset($_SESSION['email']))
         <style>
             table{
                 border: 1px solid black;
-                margin: 10px;
+                margin: 20px;
                 
             }
            
